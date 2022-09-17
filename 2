@@ -1,0 +1,7 @@
+import sys
+bar = float(sys.stdin.readline("Введіть довжину"))
+foo = float(sys.stdin.readline("Введіть ширину"))
+if bar > foo:
+    sys.stdout.write("Не та фігура")
+elif bar < foo:
+    sys.stdout.write(bar * foo)
