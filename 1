@@ -1,5 +1,6 @@
 import sys
-bar = 180 - float(sys.stdin.readline("Введіть кут при вершині"))
-sys.stdout.write(bar/2)
+sys.stdout.write("Введіть кут при вершині")
+bar = 180 - int(sys.stdin.readline())
+sys.stdout.write(str(bar/2))
 if bar <= 0:
     sys.stdout.write("Невірний приклад")
